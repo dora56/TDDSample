@@ -1,4 +1,4 @@
-using Xunit;
+﻿using Xunit;
 using FluentAssertions;
 
 namespace FizzBuzz.Test
