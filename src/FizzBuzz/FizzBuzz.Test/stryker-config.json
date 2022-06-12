@@ -1,0 +1,7 @@
+{
+  "stryker-config": {
+    "solution": "../../../TDDSample.sln",
+    "project": "FizzBuzz.csproj",
+    "mutate": [ "!**/*Program.cs" ]
+  }
+}
