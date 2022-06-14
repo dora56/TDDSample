@@ -10,7 +10,7 @@ namespace FizzBuzz
     {
         public string Convert(int i)
         {
-            return "1";
+            return i.ToString();
         }
     }
 }
