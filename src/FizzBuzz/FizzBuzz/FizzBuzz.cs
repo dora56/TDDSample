@@ -8,9 +8,9 @@ namespace FizzBuzz
 {
     public class FizzBuzz
     {
-        public string Convert(int i)
+        public string Convert(int num)
         {
-            return i.ToString();
+            return  num.ToString();
         }
     }
 }
