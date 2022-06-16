@@ -23,5 +23,14 @@ namespace FizzBuzz.Test
             // 実効 & 検証
             Assert.Equal("2", fizzBuzz.Convert(2));
         }
+
+        [Fact(DisplayName = "3を渡すと文字列Fizzを返す")]
+        public void Number3ToFizz()
+        {
+            // 準備
+            var fizzBuzz = new FizzBuzz();
+            // 実効 & 検証
+            Assert.Equal("Fizz", fizzBuzz.Convert(3));
+        }
     }
 }
